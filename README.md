@@ -33,5 +33,5 @@ Snappy is a real-time chat application built using the **MERN Stack** — MongoD
 #### 🔹 Step 1: Clone the Repository
 
 ```bash
-git clone https://github.com/hamidraza/chat-app
-cd chat-app
+git clone https://github.com/Hamidraza3587/ChatRealApp_project
+cd ChatRealApp_project
