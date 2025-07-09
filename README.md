@@ -1,68 +1,37 @@
-# Snappy - Chat Application 
-Snappy is chat application build with the power of MERN Stack. You can find the tutorial [here](https://www.youtube.com/watch?v=otaQKODEUFs)
+# Snappy - Chat Application 💬
 
+Snappy is a real-time chat application built using the **MERN Stack** — MongoDB, Express.js, React.js, and Node.js — along with **Socket.IO** for real-time communication. This project provides a modern UI, authentication, and messaging interface similar to WhatsApp or Messenger.
+
+---
+
+## 📸 Screenshots
+
+**Login Page**
 
 ![login page](./images/snappy_login.png)
 
+**Chat Home Page**
+
 ![home page](./images/snappy.png)
 
-## Installation Guide
+---
 
-### Requirements
-- [Nodejs](https://nodejs.org/en/download)
-- [Mongodb](https://www.mongodb.com/docs/manual/administration/install-community/)
+## 🧰 Installation Guide
 
-Both should be installed and make sure mongodb is running.
-### Installation
+### 🔧 Requirements
 
-#### First Method
-```shell
-git clone https://github.com/koolkishan/chat-app-react-nodejs
-cd chat-app-react-nodejs
-```
-Now rename env files from .env.example to .env
-```shell
-cd public
-mv .env.example .env
-cd ..
-cd server
-mv .env.example .env
-cd ..
-```
+- [Node.js](https://nodejs.org/en/download)
+- [MongoDB](https://www.mongodb.com/docs/manual/administration/install-community/) (local or Atlas)
+- Optional: [Yarn](https://classic.yarnpkg.com/en/docs/install)
 
-Now install the dependencies
-```shell
-cd server
-yarn
-cd ..
-cd public
-yarn
-```
-We are almost done, Now just start the development server.
+> Ensure MongoDB is running before starting the backend server.
 
-For Frontend.
-```shell
-cd public
-yarn start
-```
-For Backend.
+---
 
-Open another terminal in folder, Also make sure mongodb is running in background.
-```shell
-cd server
-yarn start
-```
-Done! Now open localhost:3000 in your browser.
+### 🛠️ Installation
 
-#### Second Method
-- This method requires docker and docker-compose to be installed in your system.
-- Make sure you are in the root of your project and run the following command.
+#### 🔹 Step 1: Clone the Repository
 
-```shell
-docker compose build --no-cache
-```
-after the build is complete run the containers using the following command
-```shell
-docker compose up
-```
-now open localhost:3000 in your browser.
+```bash
+git clone https://github.com/hamidraza/chat-app
+cd chat-app
