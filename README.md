@@ -1,6 +1,6 @@
-# Snappy - Chat Application 💬
+# RealTimeChatting - Chat Application 💬
 
-Snappy is a real-time chat application built using the **MERN Stack** — MongoDB, Express.js, React.js, and Node.js — along with **Socket.IO** for real-time communication. This project provides a modern UI, authentication, and messaging interface similar to WhatsApp or Messenger.
+**RealTimeChatting** is a real-time chat application built using the **MERN Stack** — MongoDB, Express.js, React.js, and Node.js — along with **Socket.IO** for real-time communication. This project provides a modern UI, user authentication, and real-time messaging, offering an experience similar to WhatsApp or Messenger.
 
 ---
 
@@ -24,14 +24,4 @@ Snappy is a real-time chat application built using the **MERN Stack** — MongoD
 - [MongoDB](https://www.mongodb.com/docs/manual/administration/install-community/) (local or Atlas)
 - Optional: [Yarn](https://classic.yarnpkg.com/en/docs/install)
 
-> Ensure MongoDB is running before starting the backend server.
-
----
-
-### 🛠️ Installation
-
-#### 🔹 Step 1: Clone the Repository
-
-```bash
-git clone https://github.com/Hamidraza3587/ChatRealApp_project
-cd ChatRealApp_project
+> Ensure Mon
